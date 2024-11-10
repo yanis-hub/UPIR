@@ -1,0 +1,10 @@
+
+
+Pour le code  main.py :
+
+python main.py --video-path "/Users/yanis/Desktop/output.MP4" --write-csv --visualize
+
+
+
+
+

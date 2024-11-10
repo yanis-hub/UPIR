@@ -1,0 +1,21 @@
+
+Voici la ligne de code a executer sur le terminal : 
+
+1- Pour N = 0 :
+
+python crop_video.py "/Users/yanis/Desktop/N=0 (1).MP4" "/Users/yanis/Desktop/output.MP4" 1700 800 450 1360
+
+2- Pour N = 1 : 
+
+python crop_video.py "/Users/yanis/Desktop/N=1 (1).MP4" "/Users/yanis/Desktop/N=1 (croped).MP4" 1300 800 1400 1360
+
+3- Pour N = 2 : 
+
+python crop_video.py "/Users/yanis/Desktop/N=2 (1).MP4" "/Users/yanis/Desktop/N=2 (croped).MP4" 1200 800 1700 1360
+
+
+Les 4 derniers nombres sont respectivement : 
+x (la coordonnée x du coin supérieur gauche de la zone rectangulaire.)
+y (la coordonnée y du coin supérieur gauche de la zone rectangulaire.)
+width (la largeur de la zone rectangulaire.)
+height (la hauteur de la zone rectangulaire.)
