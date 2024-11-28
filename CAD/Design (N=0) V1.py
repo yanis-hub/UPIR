@@ -6,7 +6,6 @@ radius_main = 2.5
 height_main = 15
 radius_secondary = 1
 height_secondary = 5
-n_circular = 7
 num_rotations = 5  # Number of small cylinders around the z-axis
 num_repetitions = 4 # Number of repetitions of small cylinders along Z-axis
 angle_rotation = 360 / num_rotations
