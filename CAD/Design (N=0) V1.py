@@ -12,7 +12,7 @@ num_repetitions = 4 # Number of repetitions of small cylinders along Z-axis
 angle_rotation = 360 / num_rotations
 
 # Ensure spacing is greater than the secondary cylinder's radius
-spacing = max(3, radius_secondary + 0.1)  # Add a small buffer (0.1 mm) to the radius check
+spacing = max(3, radius_secondary + 0.1)  # Add a small buffer (0.1 mm) to the radius 
 
 # Main cylinder
 main_cylinder = cq.Workplane("XY").circle(radius_main).extrude(height_main)
