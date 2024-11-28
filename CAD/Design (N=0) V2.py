@@ -1,4 +1,5 @@
 import cadquery as cq
+from cadquery import exporters
 from ocp_vscode import *
 
 # Dimensions (mm)
@@ -85,5 +86,10 @@ combined_model = main_cylinder
 for cyl in secondary_cylinder_repeated:
     combined_model = combined_model.union(cyl)
 
+
+# Exporter en fichier .stl 
+# exporters.export(combined_model, 'Design (N=0).stl')
+
 # Afficher le modèle final
 show_object(combined_model, name="Combined Model")
+
