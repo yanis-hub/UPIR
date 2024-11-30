@@ -5,3 +5,6 @@ La version **V2** régle le problème d'espacement régulier, en laissant un cho
 La version **V2** comprend également l'ajout de l'option d'enregistrement en fichier *.stl* 
 
 La version **V3** remplace le cylindre plein par un cylindre creux. Aussi, les paramètres sont modifiés pour répondre aux requis d'impression et de rigidité. 
+
+Version **V4** Ajouter filetage a l'interieur du cylindre ? 
+
